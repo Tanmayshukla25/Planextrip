@@ -109,7 +109,7 @@ const Header = () => {
                 <a
                   href="#"
                   onClick={() => handleNavLinkClick('cabs')}
-                  className={`flex items-center space-x-1 font-medium transition-colors duration-300 ${
+                  className={`flex items-center space-x-1  font-medium transition-colors duration-300 ${
                     activeLink === 'cabs'
                       ? 'text-orange-400 font-bold border-b-2 border-orange-400'
                       : 'hover:text-orange-300'
