@@ -85,18 +85,24 @@ const PopularTours = () => {
           ✨ TRENDING DESTINATIONS ✨
         </motion.div>
         
-        <motion.h2 
-          className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-orange-600 via-red-600 to-fuchsia-700 bg-clip-text text-transparent mb-4"
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          viewport={{ once: true }}
-        >
-          OUR POPULAR TOURS
-        </motion.h2>
+            <motion.h2
+                  initial={{ opacity: 0, y: -50 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ duration: 0.8 }}
+                  className="text-4xl sm:text-5xl font-extrabold text-center mb-16 relative"
+                >
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-500">
+                     OUR POPULAR TOURS
+                  </span>{" "}
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
+               TOURS
+                  </span>
+                
+                </motion.h2>
         
         <motion.p 
-          className="text-xl text-gray-700 font-medium"
+          className="text-xl text-white font-medium"
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}

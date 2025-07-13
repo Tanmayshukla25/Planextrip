@@ -140,16 +140,16 @@ const TourPackages = () => {
           Discover Amazing Destinations
         </div>
         
-        <h1 className={`text-1xl md:text-5xl pb-5 font-bold bg-gradient-to-r from-gray-900 via-purple-900 to-violet-900 bg-clip-text text-transparent mb-6 transition-all duration-700 delay-300 ${
+        <h1 className={`text-1xl md:text-5xl pb-5 font-bold  bg-gradient-to-r from-teal-500 to-blue-500 bg-clip-text text-transparent mb-6 transition-all duration-700 delay-300 ${
           headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
         }`}>
           Featured Tour
-          <span className="block bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <span className="block bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
             Packages
           </span>
         </h1>
         
-        <p className={`text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed transition-all duration-700 delay-500 ${
+        <p className={`text-xl text-white max-w-2xl mx-auto leading-relaxed transition-all duration-700 delay-500 ${
           headerVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
         }`}>
           Embark on extraordinary journeys crafted for unforgettable experiences

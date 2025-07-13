@@ -70,9 +70,7 @@ const TravelShowcaseWithFAQ = () => {
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
             Showcase
           </span>
-          <span className="text-white text-5xl sm:text-6xl absolute -right-2 top-0 transform translate-x-full md:translate-x-1/2">
-            📸
-          </span>
+        
         </motion.h2>
 
         {/* Image Grid */}
